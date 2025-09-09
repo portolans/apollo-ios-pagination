@@ -18,8 +18,8 @@ let package = Package(
   ],
   dependencies: [
     .package(
-      url: "https://github.com/apollographql/apollo-ios.git",
-      .upToNextMajor(from: "1.2.0")
+      url: "https://github.com/portolans/apollo-ios.git",
+	  branch: "release--1.23.0"
     ),
     .package(
       url: "https://github.com/apple/swift-collections",
