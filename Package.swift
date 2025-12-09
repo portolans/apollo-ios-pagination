@@ -19,7 +19,7 @@ let package = Package(
   dependencies: [
     .package(
       url: "https://github.com/portolans/apollo-ios.git",
-	  branch: "release--1.23.0"
+	  branch: "dfed--test-1.23.0-fix"
     ),
     .package(
       url: "https://github.com/apple/swift-collections",
