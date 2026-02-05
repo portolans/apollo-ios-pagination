@@ -8,10 +8,10 @@ import PackageDescription
 let package = Package(
   name: "ApolloPagination",
   platforms: [
-    .iOS(.v13),
-    .macOS(.v10_15),
-    .tvOS(.v13),
-    .watchOS(.v6),
+    .iOS(.v17),
+    .macOS(.v14),
+    .tvOS(.v17),
+    .watchOS(.v10),
   ],
   products: [
     .library(name: "ApolloPagination", targets: ["ApolloPagination"]),
@@ -19,7 +19,7 @@ let package = Package(
   dependencies: [
     .package(
       url: "https://github.com/portolans/apollo-ios.git",
-	  branch: "release--1.23.0"
+	  branch: "dfed-release--1.23.0-websocket-replacement"
     ),
     .package(
       url: "https://github.com/apple/swift-collections",
