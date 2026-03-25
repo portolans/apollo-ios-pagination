@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/portolans/apollo-ios.git",
       "state" : {
-        "branch" : "release--1.23.0",
-        "revision" : "02a2304e28e91b0d0048f750c744a57b78126b54"
+        "branch" : "release--1.25.4",
+        "revision" : "d8e43c200be902f5c7cbdc2259afc278c1b48904"
       }
     },
     {
